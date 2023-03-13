@@ -1,0 +1,339 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.45f1c1 (562c32a43b4f) revision 5647410'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.45f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Git/Nova
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+20883
+Successfully changed project path to: E:/Git/Nova
+E:/Git/Nova
+Using Asset Import Pipeline V2.
+Player connection [22588] Host "[IP] 10.137.118.139 [Port] 1073958816 [Flags] 2 [Guid] 2406822816 [EditorId] 2406822816 [Version] 1048832 [Id] WindowsEditor(7,jsl-chuzeyu1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22588] Host "[IP] 10.137.118.139 [Port] 1073958816 [Flags] 2 [Guid] 2406822816 [EditorId] 2406822816 [Version] 1048832 [Id] WindowsEditor(7,jsl-chuzeyu1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 37.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.45f1c1 (562c32a43b4f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.45f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Git/Nova/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   
+    VRAM:     10078 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.45f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.45f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.45f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.45f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000882 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.395 seconds
+Domain Reload Profiling:
+	ReloadAssembly (395ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (300ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (89ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (120ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (55ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002040 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Domain Reload Profiling:
+	ReloadAssembly (802ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (662ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.40 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3221 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.4 MB.
+System memory in use after: 160.6 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3653.
+Total: 2.662700 ms (FindLiveObjects: 0.216700 ms CreateObjectMapping: 0.111000 ms MarkObjects: 2.273400 ms  DeleteObjects: 0.060900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Nova/UI/Sprites/cross.png
+  artifactKey: Guid(593fda4ad93b64f70876d027359d30f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/cross.png using Guid(593fda4ad93b64f70876d027359d30f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17422b310489c5ac3930f7b0b9d8b9da') in 0.061038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000738 seconds.
+  path: Assets/Nova/UI/Materials/Histogram.mat
+  artifactKey: Guid(67ed0c8acadd8407c97db3a0541d5a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Materials/Histogram.mat using Guid(67ed0c8acadd8407c97db3a0541d5a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da7462ded6a2bd121900273a2970985') in 0.109205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000851 seconds.
+  path: Assets/Nova/UI/Materials/FastForwardGlitch.mat
+  artifactKey: Guid(0609751615f98d24bb6ba92bcaf72a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Materials/FastForwardGlitch.mat using Guid(0609751615f98d24bb6ba92bcaf72a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a7331a35e5e7ff2d1f5b42fd0d24fd') in 0.006834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/Nova/UI/Materials/DialogueFinishCube.mat
+  artifactKey: Guid(7fb5d3e45b7e2eb47a259d092fd15583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Materials/DialogueFinishCube.mat using Guid(7fb5d3e45b7e2eb47a259d092fd15583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17968cc22d730efab6951987a180d5df') in 0.006328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Assets/Nova/UI/Materials/UIBlur.mat
+  artifactKey: Guid(2ab7a906efd36554bb4cdc65eb926b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Materials/UIBlur.mat using Guid(2ab7a906efd36554bb4cdc65eb926b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3adda0d83fb7a4f8d550a259318d23bb') in 0.006090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000873 seconds.
+  path: Assets/Nova/UI/Sprites/play.png
+  artifactKey: Guid(afb0384386ed3f946a36733803d00399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/play.png using Guid(afb0384386ed3f946a36733803d00399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0b2e32ab75714d33b6427cae5000bb') in 0.006540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000704 seconds.
+  path: Assets/Nova/UI
+  artifactKey: Guid(97e03e4b286a37f4cbdd93a71edc4a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI using Guid(97e03e4b286a37f4cbdd93a71edc4a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a18be081a78f02d5e77a1b452706c23') in 0.001823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/Nova/UI/Materials/UIScreen.mat
+  artifactKey: Guid(d89f5dae28074f64e9d492b4530529d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Materials/UIScreen.mat using Guid(d89f5dae28074f64e9d492b4530529d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c66dea913e38b91a487da4d19ceb703') in 0.005335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/Nova/UI/Materials/UIOpaque.mat
+  artifactKey: Guid(cf25cb2bad1daca49951ea2e0d11659f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Materials/UIOpaque.mat using Guid(cf25cb2bad1daca49951ea2e0d11659f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69dd8d0bfd4a414dbaa19f224e9a8734') in 0.005204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000732 seconds.
+  path: Assets/Nova/UI/Sprites/speaker.png
+  artifactKey: Guid(75d356c9465276d4897cffa93faf40f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/speaker.png using Guid(75d356c9465276d4897cffa93faf40f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b35c394e244c4a2c2f68e8270c51a06') in 0.005577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/Nova/UI/Materials
+  artifactKey: Guid(1a831e6208650d942984db78bd16cf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Materials using Guid(1a831e6208650d942984db78bd16cf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c6be4a153cd7473bb733d14346245b') in 0.001814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/Nova/UI/Sprites/fast_forward.png
+  artifactKey: Guid(8b35d164831588244b14aa1b8f2f08db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/fast_forward.png using Guid(8b35d164831588244b14aa1b8f2f08db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ea9ab22b1bb0ccbcd30d2a97b2ab97') in 0.005462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/Nova/UI/Sprites
+  artifactKey: Guid(a357449ae94ae364a92f49729d75c49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites using Guid(a357449ae94ae364a92f49729d75c49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f7e10ddb030677cc48e199da4f9048') in 0.001876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.488836 seconds.
+  path: Assets/Nova/UI/Sprites/MusicGallery
+  artifactKey: Guid(3e97335c31cab0a48bbaedab1018520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/MusicGallery using Guid(3e97335c31cab0a48bbaedab1018520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40c3ee6993a1941a058659dfcc8e561') in 0.001854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.073031 seconds.
+  path: Assets/Nova/UI/Sprites/MusicGallery/music_gallery_loop.png
+  artifactKey: Guid(ee5d41bd6e260934eb99caeea48ebe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/MusicGallery/music_gallery_loop.png using Guid(ee5d41bd6e260934eb99caeea48ebe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba926efb867a5527f128dcce38bfeea') in 0.006474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/Nova/UI/Sprites/MusicGallery/music_gallery_pause.png
+  artifactKey: Guid(0726a7c1c0bd1f0408f2d67fd83cf15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/MusicGallery/music_gallery_pause.png using Guid(0726a7c1c0bd1f0408f2d67fd83cf15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5890b966994e538b4da57d2c19aa4fa2') in 0.004947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Nova/UI/Sprites/MusicGallery/music_gallery_next.png
+  artifactKey: Guid(a6183eb4d21968b4ab1273fd6a989970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/MusicGallery/music_gallery_next.png using Guid(a6183eb4d21968b4ab1273fd6a989970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aeb9160af544b0a96fe6274f828393d') in 0.008445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000612 seconds.
+  path: Assets/Nova/UI/Sprites/MusicGallery/music_gallery_random.png
+  artifactKey: Guid(c0064c5774413db4ba5420b92f1eba5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/MusicGallery/music_gallery_random.png using Guid(c0064c5774413db4ba5420b92f1eba5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634518e356f14b358776f209333a118d') in 0.007412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/Nova/UI/Sprites/MusicGallery/music_gallery_play.png
+  artifactKey: Guid(746dca71777dbff45bbfc63713eb30ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/MusicGallery/music_gallery_play.png using Guid(746dca71777dbff45bbfc63713eb30ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28be41081bdd9fc640ffdbcd3da456ff') in 0.005459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000588 seconds.
+  path: Assets/Nova/UI/Sprites/MusicGallery/music_gallery_loop_single.png
+  artifactKey: Guid(4c1412862d54c254bbfcb667ee1000c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/MusicGallery/music_gallery_loop_single.png using Guid(4c1412862d54c254bbfcb667ee1000c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0f82e7c25053bc61eea3d92462ef10') in 0.008037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000652 seconds.
+  path: Assets/Nova/UI/Sprites/MusicGallery/music_gallery_prev.png
+  artifactKey: Guid(27d969bd6ceb5d746ba6db9799758b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/MusicGallery/music_gallery_prev.png using Guid(27d969bd6ceb5d746ba6db9799758b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f82184b4298840dd5cc0d6fc4a5d125') in 0.009065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.991099 seconds.
+  path: Assets/Nova/UI/Sprites/ImageGallery
+  artifactKey: Guid(acc1895413a799648bf6ed08943aaf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/ImageGallery using Guid(acc1895413a799648bf6ed08943aaf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b26f02b4d529202161cb3e5eb81599') in 0.002039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058050 seconds.
+  path: Assets/Nova/UI/Sprites/ImageGallery/image_gallery_empty.png
+  artifactKey: Guid(97dc4280387fbc540b5bb26510c088d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/ImageGallery/image_gallery_empty.png using Guid(97dc4280387fbc540b5bb26510c088d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20e26927283dbd084538693b48fa85c') in 0.012317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000644 seconds.
+  path: Assets/Nova/UI/Sprites/ImageGallery/image_gallery_locked.png
+  artifactKey: Guid(8bd0e8d11d6117d4faef7ad07d3df696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/ImageGallery/image_gallery_locked.png using Guid(8bd0e8d11d6117d4faef7ad07d3df696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283b880569f563b8fe82e2917d9151c6') in 0.013265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.555753 seconds.
+  path: Assets/Nova/UI/Sprites/ButtonRing
+  artifactKey: Guid(fc2e914ac6cc14c46be609ad61096af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/ButtonRing using Guid(fc2e914ac6cc14c46be609ad61096af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681f39cae00e2aae2018fa971cfb5168') in 0.001816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058316 seconds.
+  path: Assets/Nova/UI/Sprites/ButtonRing/button_ring_0.png
+  artifactKey: Guid(b1b8afdc252ee3049923d5231295875c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/ButtonRing/button_ring_0.png using Guid(b1b8afdc252ee3049923d5231295875c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e805b491f5ab2dc12074d7e60c42366') in 0.013266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000598 seconds.
+  path: Assets/Nova/UI/Sprites/ButtonRing/button_ring_1.png
+  artifactKey: Guid(6d36895d2137b0f498c13dc585cd2316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/ButtonRing/button_ring_1.png using Guid(6d36895d2137b0f498c13dc585cd2316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66d1535ce70a6b23b1bc39dda70e2a2') in 0.020403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/Nova/UI/Sprites/ButtonRing/button_ring_6.png
+  artifactKey: Guid(2c65469db0a4b5b49bdadbe50a9d9d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/ButtonRing/button_ring_6.png using Guid(2c65469db0a4b5b49bdadbe50a9d9d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275d3fcea3842a61be666a1dd0330452') in 0.007342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/Nova/UI/Sprites/ButtonRing/button_ring_2.png
+  artifactKey: Guid(d997cacaf67a9e240a06653adea636b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/ButtonRing/button_ring_2.png using Guid(d997cacaf67a9e240a06653adea636b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1159b236cc63ffab6e3cb4c43d0c53fd') in 0.006611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/Nova/UI/Sprites/ButtonRing/button_ring_3.png
+  artifactKey: Guid(c3241dc452bf1bf429d3af69db909cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/ButtonRing/button_ring_3.png using Guid(c3241dc452bf1bf429d3af69db909cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7773e4a9c6b44b9c40dfae9191ee40a9') in 0.006208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/Nova/UI/Sprites/ButtonRing/button_ring_5.png
+  artifactKey: Guid(fe85968b556b9854b8de625441bfe469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/ButtonRing/button_ring_5.png using Guid(fe85968b556b9854b8de625441bfe469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a254338674d4878b7ed3971bb1cb972f') in 0.006766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000688 seconds.
+  path: Assets/Nova/UI/Sprites/ButtonRing/button_ring_4.png
+  artifactKey: Guid(7805453fd5fbeff40a6657a6cdceba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/ButtonRing/button_ring_4.png using Guid(7805453fd5fbeff40a6657a6cdceba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7911cdd3886d9833209efa4f10a62a0b') in 0.006628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/Nova/UI/Sprites/ButtonRing/button_ring_7.png
+  artifactKey: Guid(699655f9eb74f6f4c976bc83fb54d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/ButtonRing/button_ring_7.png using Guid(699655f9eb74f6f4c976bc83fb54d95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a9178b3a493234e910fbb20fbf02ab') in 0.006633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000683 seconds.
+  path: Assets/Nova/UI/Sprites/ButtonRing/button_ring_8.png
+  artifactKey: Guid(e066518f315c59a4ab73fd08b30f686b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nova/UI/Sprites/ButtonRing/button_ring_8.png using Guid(e066518f315c59a4ab73fd08b30f686b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba9fa18a0144fac65aaf093acfdb576') in 0.006837 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
